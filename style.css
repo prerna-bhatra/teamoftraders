@@ -1,0 +1,66 @@
+html{
+  scroll-behavior: smooth;
+}
+nav{
+    padding: 0px 10px 0px 0px;
+   
+    
+}
+nav  a{
+    color: black;
+}
+nav ul li{
+    margin-left: 30px;
+}
+
+.community
+{
+  background-image: url('images/trading1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.education
+{
+  background-image: url('images/trading2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 600px;
+}
+
+.aboutUs
+{
+  /* background-image: url('images/trading2.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.aboutUs h4
+{
+
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.contact
+{
+  padding: 40px 40px 40px 40px;
+}
+
+.community a{
+    color: white;
+}
+
+
+
+
+
+

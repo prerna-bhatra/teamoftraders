@@ -2,12 +2,22 @@ html{
   scroll-behavior: smooth;
 }
 nav{
-    padding: 0px 10px 0px 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
    
     
 }
+.nav-colored
+{
+  background-color: black;
+}
+.nav-transparent
+{
+  background-color: transparent;
+}
 nav  a{
-    color: black;
+    color:wheat;
 }
 nav ul li{
     margin-left: 30px;
@@ -15,22 +25,23 @@ nav ul li{
 
 .community
 {
-  background-image: url('images/trading1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: aliceblue;
+  /* background-image: url('images/trading1.jpg'); */
+  background-color: blueviolet;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  color: rgb(188, 210, 229);
   padding-top: 150px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 .education
 {
-  background-image: url('images/trading2.jpg');
+  /* background-image: url('images/trading2.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   color: black;
-  padding-top: 30px;
-  padding-bottom: 600px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .aboutUs
@@ -59,7 +70,10 @@ nav ul li{
     color: white;
 }
 
-
+#communit-p-1
+{
+  font-size: 40px;
+}
 
 
 

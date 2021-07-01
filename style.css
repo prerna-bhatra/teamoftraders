@@ -4,9 +4,7 @@ html{
 nav{
     padding-left: 200px;
     padding-right: 200px;
-    
-   
-    
+    z-index: 9999 
 }
 .nav-colored
 {

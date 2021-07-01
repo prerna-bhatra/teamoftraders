@@ -62,7 +62,24 @@
          </div>
          <div class="col-md-6">
           <form>
-            <label>Name</label>
+            <label>Name <sub style="color: red;">*</sub></label>
+            <input type="text"  id="uname"  class="form-control"  required>
+            <label>Email <sub style="color: red;">*</sub></label>
+            <input type="email"  id="uemail"  class="form-control"  required >
+            <label>Phone <sub style="color: red;">*</sub></label>
+            <input type="number"  id="uohone" class="form-control"  required >
+            <label>State <sub style="color: red;">*</sub></label>
+            <select name="" id="ustate"class="form-control"  required >
+              <option value="0"></option>
+            </select>
+            <label>What is your level in stock market <sub style="color: red;">*</sub></label>
+            <select name="" id="ustate" class="form-control"  required >
+              <option value="0">Beginner</option>
+              <option value="1">Intermediate</option>
+              <option value="0">Advanceed</option>
+            </select>
+            <br>
+            <button id="edubutton" class="btn btn-primary" style="float: right;">Send </button>
           </form>
          </div>
     </div>
